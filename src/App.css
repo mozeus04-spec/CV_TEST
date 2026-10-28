@@ -1,0 +1,51 @@
+/* Style global et police moderne */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Conteneur principal du portfolio */
+.portfolio-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Style des cartes pour chaque composant (P1, P2, P3) */
+.card {
+  background: #ffffff;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Titres à l'intérieur des cartes */
+.card h2 {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+/* Texte */
+.card p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.card strong {
+  color: #2c3e50;
+}
